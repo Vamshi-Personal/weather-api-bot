@@ -1,0 +1,29 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Weather details for {city}:",
+            "weight": "bolder",
+            "size": "medium"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Temperature: {temperature} °C"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Weather Code: {weatherCode}"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Humidity: {humidity}%"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Wind Speed: {windSpeed} km/h"
+        }
+    ]
+}

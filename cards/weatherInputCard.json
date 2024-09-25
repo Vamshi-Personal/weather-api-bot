@@ -1,0 +1,28 @@
+{
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "version": "1.2",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Please enter the city name to get the weather details:",
+        "wrap": true
+      },
+      {
+        "type": "Input.Text",
+        "id": "city",
+        "placeholder": "Enter city name",
+        "isRequired": true
+      }
+    ],
+    "actions": [
+      {
+        "type": "Action.Submit",
+        "title": "Get Weather",
+        "data": {
+          "action": "getWeather"
+        }
+      }
+    ]
+  }
+  

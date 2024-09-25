@@ -1,0 +1,22 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "adaptivecards": "^3.0.4",
+    "botbuilder": "^4.22.3",
+    "botbuilder-core": "^4.22.3",
+    "botbuilder-dialogs": "^4.22.3",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "request": "^2.88.2",
+    "restify": "^11.1.0"
+  }
+}
